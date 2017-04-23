@@ -61,7 +61,7 @@ public Mlist (IDataProvider provider, Datum group_col,
 ```
 
 The first is the model provider, which should return data on
-demand, and the number of rows on it.  The `group_col'
+demand, and the number of rows on it.  The `group_col`
 is the column queried to perform groupings, you can choose any
 grouping style you want with this function.
 
@@ -88,10 +88,10 @@ by time, and will sort by the time field.
 
 # Using it.
 
-To compile use the `make' command, you will need a recent
+To compile use the `make` command, you will need a recent
 version of Gtk# (CVS at the time of this writing), the default
 test program will load a file in the current directory called
-`mbox.ev-summary' which is a Camel summary file for mbox files
+`mbox.ev-summary` which is a Camel summary file for mbox files
 (I took this from my Evolution setup).
 
 You can provide your own model, but using the default, and
